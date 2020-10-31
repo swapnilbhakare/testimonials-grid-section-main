@@ -15,10 +15,11 @@
 body {
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
+  background: var(--Lightgrayishblue);
 }
 .container {
   display: grid;
-  margin: 20px;
+  margin: 40px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, min-content);
   grid-gap: 30px;
@@ -82,7 +83,7 @@ body {
   padding: 25px;
   grid-row: 1/-1;
   grid-column: 4/5;
-  color: var(--Verydarkgrayishblue);
+  background-color: white;
 }
 .card-title {
   padding-top: 20px;
